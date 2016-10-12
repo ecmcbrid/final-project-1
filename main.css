@@ -1,0 +1,218 @@
+
+head{
+    
+    text-align: center;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    margin: bottom 20px; 
+    height: 300px;
+    
+    background:url(media/faces.jpg) 100% 100% no-repeat;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.header:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=50);
+}
+
+body {
+    background-color: ghostwhite;
+    color: darkslategrey;
+    margin: auto;
+    
+    font-family: 'Playfair Display,' serif;
+    font-size: 13px;
+    text-align: justify;
+	font-weight:400;
+	line-height:1.4;
+	font-size:14px;
+	font-style:normal
+   
+}
+
+    
+.container {
+    max-width: 800px;
+    /* An "auto" margin will adjust the left and right margins automatically, effectively centering the element. */
+    margin: auto;
+}
+
+p{
+    text-indent: 30px;
+    font-family: 'Inconsolata', monospace;
+ }
+
+#wrapperHeader{
+    position: relative;
+    background-image:url(images/header.png);
+}
+
+.banner {
+  height: 200px;
+  background-color: coral;
+  position: relative; 
+}
+  
+    h1{
+            color: darkslategray;
+                       
+            font-size: 60px;
+            font-family: 'Playfair Display', serif;
+            font-weight: 100px;
+            line-height: 80px;
+            margin: 40px;
+            text-align: center;
+            
+           
+            text-transform: uppercase;
+            letter-spacing:30px;
+           
+          
+            
+        }
+h2{
+            font-size: 30px;
+            letter-spacing: 10px;
+            
+           text-transform: uppercase;
+            
+            line-height: 60px;
+            text-align: center;
+        }
+           
+h3 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    
+    text-transform: uppercase;
+    
+    text-shadow: 2px 2px 0px black;
+    
+    text-align: left;
+    
+}
+     
+h4 {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: underline;
+    transition: .4s all;
+    color: darkturquoise;
+}
+
+address {
+    font-size: 15px;
+    letter-spacing: 3px;
+    
+    font-style: normal;
+    
+    line-height: 25px;
+    text-align: center;
+}
+
+nav {
+    color: bisque; 
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    list-style-type: none;
+    
+    font-family: 'Playfair Display', serif;
+    
+    margin: ;
+     padding: 8px 8px 8px 8px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+
+nav ul li a:hover {
+    text-shadow: 2px 2px 0px limegreen;
+    transition: .3s all;
+}
+
+nav ul {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    
+    text-shadow: 2px 2px 0px black;   
+    text-transform: uppercase;
+    margin: auto;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/******** LISTS ********/
+
+ul {
+    list-style: none; /* Remove Bullets */
+    padding: 0px; /* Remove default padding */
+}
+
+ul li {
+    margin-bottom: 20px; /* Spacing between list items */
+}
+
+ul li ul {
+    padding-left: 20px;
+}
+
+ul li ul li ul {
+    list-style: circle;
+}
+
+ul li ul li ul li {
+    margin: 0px;
+}
+
+
+    
+.circleDiv {
+    
+    width: 150px;
+    height: 150px;
+    background-size: 150px 150px;
+    margin-left: 125px;
+    border-radius: 150px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+    background-image: url(media/face.jpg);
+    border: solid 1px white;
+    margin: auto;
+}
+
+
+.info{
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.footer{
+    background-color: white;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+
+
